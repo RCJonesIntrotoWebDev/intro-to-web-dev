@@ -10,3 +10,5 @@ div {
 footer {
   border: thin solid pink;
 }
+@media screen and (min-width: 30em) and (orientation: landscape)
+  
