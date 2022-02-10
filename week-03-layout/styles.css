@@ -1,12 +1,12 @@
 nav {
-  border: thin solid black;
+  border: thin solid green;
 }
 
 div {
-  border: thin solid black;
+  border: thin solid yellow;
   margin: 25px 0;
 }
 
 footer {
-  border: thin solid black;
+  border: thin solid pink;
 }
