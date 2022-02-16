@@ -17,7 +17,7 @@ function fillOutputs() {
   const outputDiv = document.getElementById('output');
   // Make the output container element visible
   outputDiv.style.display = 'block';
-  
+}  
     // Get the greeting input element
   const greetingOneInput = document.getElementById('adjective-one-input');
   // Get the text from the input element
@@ -32,7 +32,7 @@ function fillOutputs() {
   const outputDiv = document.getElementById('output');
   // Make the output container element visible
   outputDiv.style.display = 'block';
-  
+}  
     // Get the adjective input element
   const adjectiveTwoInput = document.getElementById('adjective-two-input');
   // Get the text from the input element
@@ -47,7 +47,7 @@ function fillOutputs() {
   const outputDiv = document.getElementById('output');
   // Make the output container element visible
   outputDiv.style.display = 'block';
-  
+}  
       // Get the adjective input element
   const adjectiveOneInput = document.getElementById('adjective-one-input');
   // Get the text from the input element
@@ -62,7 +62,7 @@ function fillOutputs() {
   const outputDiv = document.getElementById('output');
   // Make the output container element visible
   outputDiv.style.display = 'block';
-  
+} 
       // Get the color input element
   const colorOneInput = document.getElementById('color-one-input');
   // Get the text from the input element
@@ -77,7 +77,7 @@ function fillOutputs() {
   const outputDiv = document.getElementById('output');
   // Make the output container element visible
   outputDiv.style.display = 'block';
-  
+  }
       // Get the skechers input element
   const skechersOneInput = document.getElementById('skechers-one-input');
   // Get the text from the input element
@@ -92,7 +92,7 @@ function fillOutputs() {
   const outputDiv = document.getElementById('output');
   // Make the output container element visible
   outputDiv.style.display = 'block';
-  
+  }
       // Get the genre input element
   const genreOneInput = document.getElementById('genre-one-input');
   // Get the text from the input element
@@ -107,7 +107,7 @@ function fillOutputs() {
   const outputDiv = document.getElementById('output');
   // Make the output container element visible
   outputDiv.style.display = 'block';
-  
+}
         // Get the genre input element
   const genreOneInput = document.getElementById('genre-one-input');
   // Get the text from the input element
@@ -122,7 +122,7 @@ function fillOutputs() {
   const outputDiv = document.getElementById('output');
   // Make the output container element visible
   outputDiv.style.display = 'block';
-  
+ }
           // Get the refusal input element
   const refusalOneInput = document.getElementById('refusal-one-input');
   // Get the text from the input element
