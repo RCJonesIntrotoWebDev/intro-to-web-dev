@@ -92,4 +92,49 @@ function fillOutputs() {
   const outputDiv = document.getElementById('output');
   // Make the output container element visible
   outputDiv.style.display = 'block';
+  
+      // Get the genre input element
+  const genreOneInput = document.getElementById('genre-one-input');
+  // Get the text from the input element
+  const genreOne = genreOneInput.value;
+
+  // Get the skechers output element
+  const skechersOneOutput = document.getElementById('skechers-one-output');
+  // Set the text of the input element
+  genreOneOutput.innerText = genreOne;
+
+  // Get the output container element
+  const outputDiv = document.getElementById('output');
+  // Make the output container element visible
+  outputDiv.style.display = 'block';
+  
+        // Get the genre input element
+  const genreOneInput = document.getElementById('genre-one-input');
+  // Get the text from the input element
+  const genreOne = genreOneInput.value;
+
+  // Get the genre output element
+  const genreOneOutput = document.getElementById('genre-one-output');
+  // Set the text of the input element
+  genreOneOutput.innerText = genreOne;
+
+  // Get the output container element
+  const outputDiv = document.getElementById('output');
+  // Make the output container element visible
+  outputDiv.style.display = 'block';
+  
+          // Get the refusal input element
+  const refusalOneInput = document.getElementById('refusal-one-input');
+  // Get the text from the input element
+  const refusalOne = refusalOneInput.value;
+
+  // Get the refusal output element
+  const refusalOneOutput = document.getElementById('refusal-one-output');
+  // Set the text of the input element
+  refusalOneOutput.innerText = refusalOne;
+
+  // Get the output container element
+  const outputDiv = document.getElementById('output');
+  // Make the output container element visible
+  outputDiv.style.display = 'block';
 }
