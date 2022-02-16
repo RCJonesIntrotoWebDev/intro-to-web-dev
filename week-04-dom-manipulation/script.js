@@ -18,6 +18,11 @@ function fillOutputs() {
   // Make the output container element visible
   outputDiv.style.display = 'block';
 }  
+
+// When this function is called, it takes the values from the inputs and adds
+// them to the outputs.
+function fillOutputs() {
+  
     // Get the greeting input element
   const greetingOneInput = document.getElementById('adjective-one-input');
   // Get the text from the input element
@@ -33,6 +38,15 @@ function fillOutputs() {
   // Make the output container element visible
   outputDiv.style.display = 'block';
 }  
+
+// When this function is called, it takes the values from the inputs and adds
+// them to the outputs.
+function fillOutputs() {
+  
+// When this function is called, it takes the values from the inputs and adds
+// them to the outputs.
+function fillOutputs() {
+  
     // Get the adjective input element
   const adjectiveTwoInput = document.getElementById('adjective-two-input');
   // Get the text from the input element
@@ -48,6 +62,11 @@ function fillOutputs() {
   // Make the output container element visible
   outputDiv.style.display = 'block';
 }  
+
+// When this function is called, it takes the values from the inputs and adds
+// them to the outputs.
+function fillOutputs() {
+ 
       // Get the adjective input element
   const adjectiveOneInput = document.getElementById('adjective-one-input');
   // Get the text from the input element
@@ -63,6 +82,11 @@ function fillOutputs() {
   // Make the output container element visible
   outputDiv.style.display = 'block';
 } 
+  
+ // When this function is called, it takes the values from the inputs and adds
+// them to the outputs.
+function fillOutputs() {
+  
       // Get the color input element
   const colorOneInput = document.getElementById('color-one-input');
   // Get the text from the input element
@@ -78,6 +102,11 @@ function fillOutputs() {
   // Make the output container element visible
   outputDiv.style.display = 'block';
   }
+  
+  // When this function is called, it takes the values from the inputs and adds
+// them to the outputs.
+function fillOutputs() {
+  
       // Get the skechers input element
   const skechersOneInput = document.getElementById('skechers-one-input');
   // Get the text from the input element
@@ -93,6 +122,11 @@ function fillOutputs() {
   // Make the output container element visible
   outputDiv.style.display = 'block';
   }
+  
+  // When this function is called, it takes the values from the inputs and adds
+// them to the outputs.
+function fillOutputs() {
+  
       // Get the genre input element
   const genreOneInput = document.getElementById('genre-one-input');
   // Get the text from the input element
@@ -108,6 +142,11 @@ function fillOutputs() {
   // Make the output container element visible
   outputDiv.style.display = 'block';
 }
+  
+  // When this function is called, it takes the values from the inputs and adds
+// them to the outputs.
+function fillOutputs() {
+  
         // Get the genre input element
   const genreOneInput = document.getElementById('genre-one-input');
   // Get the text from the input element
@@ -123,6 +162,11 @@ function fillOutputs() {
   // Make the output container element visible
   outputDiv.style.display = 'block';
  }
+  
+  // When this function is called, it takes the values from the inputs and adds
+// them to the outputs.
+function fillOutputs() {
+  
           // Get the refusal input element
   const refusalOneInput = document.getElementById('refusal-one-input');
   // Get the text from the input element
@@ -138,3 +182,63 @@ function fillOutputs() {
   // Make the output container element visible
   outputDiv.style.display = 'block';
 }
+  
+  // When this function is called, it takes the values from the inputs and adds
+// them to the outputs.
+function fillOutputs() {  
+  
+          // Get the refusal input element
+  const fortniteOneInput = document.getElementById('fortnite-one-input');
+  // Get the text from the input element
+  const fortniteOne = fortniteOneInput.value;
+
+  // Get the fortnite output element
+  const fortniteOneOutput = document.getElementById('fortnite-one-output');
+  // Set the text of the input element
+  refusalOneOutput.innerText = fortniteOne;
+
+  // Get the output container element
+  const outputDiv = document.getElementById('output');
+  // Make the output container element visible
+  outputDiv.style.display = 'block';
+}
+  
+  // When this function is called, it takes the values from the inputs and adds
+// them to the outputs.
+function fillOutputs() {  
+  
+          // Get the refusal input element
+  const actionOneInput = document.getElementById('action-one-input');
+  // Get the text from the input element
+  const actionOne = actionOneInput.value;
+
+  // Get the fortnite output element
+  const fortniteOneOutput = document.getElementById('fortnite-one-output');
+  // Set the text of the input element
+  actionOneOutput.innerText = actionOne;
+
+  // Get the output container element
+  const outputDiv = document.getElementById('output');
+  // Make the output container element visible
+  outputDiv.style.display = 'block';
+} 
+  
+   // When this function is called, it takes the values from the inputs and adds
+// them to the outputs.
+function fillOutputs() {  
+  
+          // Get the refusal input element
+  const yearOneInput = document.getElementById('year-one-input');
+  // Get the text from the input element
+  const yearOne = yearOneInput.value;
+
+  // Get the fortnite output element
+  const yearOneOutput = document.getElementById('year-one-output');
+  // Set the text of the input element
+  yearOneOutput.innerText = yearOne;
+
+  // Get the output container element
+  const outputDiv = document.getElementById('output');
+  // Make the output container element visible
+  outputDiv.style.display = 'block';
+}  
