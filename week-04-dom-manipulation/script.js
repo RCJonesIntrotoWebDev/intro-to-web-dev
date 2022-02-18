@@ -13,6 +13,16 @@ function fillOutputs() {
   // Set the text of the input element
   adjectiveOneOutput.innerText = adjectiveOne;
 
+    // Get the adjective input element
+  const adjectiveOneInput = document.getElementById('greeting-one-input');
+  // Get the text from the input element
+  const adjectiveOne = adjectiveOneInput.value;
+
+  // Get the adjective output element
+  const adjectiveOneOutput = document.getElementById('greeting-one-output');
+  // Set the text of the input element
+  adjectiveOneOutput.innerText = adjectiveOne;
+  
   // Get the output container element
   const outputDiv = document.getElementById('output');
   // Make the output container element visible
