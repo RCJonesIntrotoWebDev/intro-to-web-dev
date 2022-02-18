@@ -16,12 +16,12 @@ function fillOutputs() {
     // Get the adjective input element
   const greetingOneInput = document.getElementById('greeting-one-input');
   // Get the text from the input element
-  const greetingOne = adjectiveOneInput.value;
+  const greetingOne = greetingOneInput.value;
 
   // Get the greeting output element
   const greetingOneOutput = document.getElementById('greeting-one-output');
   // Set the text of the input element
-  greetingOneOutput.innerText = adjectiveOne;
+  greetingOneOutput.innerText = greetingOne;
   
   // Get the output container element
   const outputDiv = document.getElementById('output');
