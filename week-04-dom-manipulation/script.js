@@ -14,14 +14,14 @@ function fillOutputs() {
   adjectiveOneOutput.innerText = adjectiveOne;
 
     // Get the adjective input element
-  const adjectiveOneInput = document.getElementById('greeting-one-input');
+  const greetingOneInput = document.getElementById('greeting-one-input');
   // Get the text from the input element
-  const adjectiveOne = adjectiveOneInput.value;
+  const greetingOne = adjectiveOneInput.value;
 
-  // Get the adjective output element
-  const adjectiveOneOutput = document.getElementById('greeting-one-output');
+  // Get the greeting output element
+  const greetingOneOutput = document.getElementById('greeting-one-output');
   // Set the text of the input element
-  adjectiveOneOutput.innerText = adjectiveOne;
+  greetingOneOutput.innerText = adjectiveOne;
   
   // Get the output container element
   const outputDiv = document.getElementById('output');
