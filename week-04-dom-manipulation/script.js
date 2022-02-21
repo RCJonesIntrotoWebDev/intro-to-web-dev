@@ -23,8 +23,19 @@ function fillOutputs() {
   // Set the text of the input element
   greetingOneOutput.innerText = greetingOne;
   
+    // Get the adjective input element
+  const adjectiveTwoInput = document.getElementById('adjective-two-input');
+  // Get the text from the input element
+  const adjectiveTwo = adjectiveTwoInput.value;
+
+  // Get the adjective output element
+  const adjectiveTwoOutput = document.getElementById('adjective-two-output');
+  // Set the text of the input element
+  adjectiveTwoOutput.innerText = adjectiveTwo;
+  
   // Get the output container element
   const outputDiv = document.getElementById('output');
   // Make the output container element visible
   outputDiv.style.display = 'block';
+  
 }
