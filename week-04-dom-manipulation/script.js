@@ -33,6 +33,17 @@ function fillOutputs() {
   // Set the text of the input element
   adjectiveTwoOutput.innerText = adjectiveTwo;
   
+  // Get the color input element
+  const colorOneInput = document.getElementById('color-one-input');
+  // Get the text from the input element
+  const colorOne = colorOneInput.value;
+
+  // Get the color output element
+  const colorOneOutput = document.getElementById('color-one-output');
+  // Set the text of the input element
+  colorOneOutput.innerText = adjectiveOne;
+
+  
   // Get the output container element
   const outputDiv = document.getElementById('output');
   // Make the output container element visible
