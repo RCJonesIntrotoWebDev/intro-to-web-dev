@@ -13,7 +13,7 @@ function fillOutputs() {
   // Set the text of the input element
   adjectiveOneOutput.innerText = adjectiveOne;
 
-    // Get the adjective input element
+    // Get the greeting input element
   const greetingOneInput = document.getElementById('greeting-one-input');
   // Get the text from the input element
   const greetingOne = greetingOneInput.value;
