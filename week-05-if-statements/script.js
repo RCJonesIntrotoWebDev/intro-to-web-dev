@@ -6,14 +6,14 @@ function submitAnswerOne() {
   // Get the text from answer one's input element
   const answerOne = answerOneInput.value;
 
-  if(answerOne == 'Beauty and the Beast') {
+  if(answerOne == 'cat') {
     alert("That's right!");
     hide('question-one');
     show('question-two');
-  } else if(answerOne == 'Frozen') {
-    alert('Nope, it's overrated.');
+  } else if(answerOne == 'dog') {
+    alert('Close, but my favorite animal runs away from dogs.');
   } else {
-    alert('Close, it's a hand drawn film from 1991.')
+    alert('Wrong! Hint: My favorite animal meows.')
   }
 }
 
@@ -25,14 +25,14 @@ function submitAnswerTwo() {
   // Get the number from answer two's input element
   const answerTwo = answerTwoInput.value;
 
-  if(answerTwo == 4) {
+  if(answerTwo == 42) {
     alert("That's right!");
     hide('question-two');
     show('done');
-  } else if(answerTwo < 2) {
-    alert('The answer is lower.');
-  } else if(answerTwo == 1) {
-    alert('The answer is higher.')
+  } else if(answerTwo < 42) {
+    alert('The answer is higher.');
+  } else {
+    alert('The answer is lower.')
   }
 }
 
