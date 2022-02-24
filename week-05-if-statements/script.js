@@ -14,8 +14,7 @@ function submitAnswerOne() {
     alert('Well, this is my second favorite. This one's from 1991.');
   } else if(answerOne == 'Frozen') {
     alert('no, it's draws away from the source material of The Snow Queen, and insults Disney AND the original author.'); 
-  } else if(answerOne == 'Encanto') {
-    alert('Well, this is my third favorite, but my favorite one is hand drawn.');
+  } 
   } else {
     alert('Wrong! Hint: My favorite animal meows.')
   }
