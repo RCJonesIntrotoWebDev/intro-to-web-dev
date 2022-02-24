@@ -13,7 +13,7 @@ function submitAnswerOne() {
   } else if(answerOne == 'Frozen') {
     alert('Nope, it's overrated.');
   } else {
-    alert('Wrong! Hint: My favorite animal meows.')
+    alert('Close, it's a hand drawn film from 1991.')
   }
 }
 
