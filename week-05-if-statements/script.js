@@ -6,7 +6,7 @@ function submitAnswerOne() {
   // Get the text from answer one's input element
   const answerOne = answerOneInput.value;
 
-  if(answerOne == 'beauty and he beast') {
+  if(answerOne == 'beauty and the beast') {
     alert("That's right!");
     hide('question-one');
     show('question-two');
