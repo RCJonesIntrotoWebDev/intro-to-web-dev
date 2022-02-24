@@ -13,7 +13,7 @@ function submitAnswerOne() {
   } else if(answerOne == 'frozen') {
     alert('never.');
   } else if(answerOne == 'Dinosuar') {
-    alert('no baby sinclair or political overtones, 0 out of 10.');
+    alert('watched it and was very dissapointed with the lack of baby dinosuar that sounds similar to elmo annoying his father with a frying pan, 0 out of 10.');
   } else if(answerOne == 'princess and the frog') {
     alert('it is one of them, but my favorite came out way before that.');
   } else if(answerOne == 'pinocchio') {
