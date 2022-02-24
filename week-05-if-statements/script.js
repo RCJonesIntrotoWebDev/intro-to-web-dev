@@ -11,7 +11,7 @@ function submitAnswerOne() {
     hide('question-one');
     show('question-two');
   } else if(answerOne == 'Princess and the Frog') {
-    alert('It's one of them, but mine came out 18 years before');
+    alert('It's one of them, but mine came out a while before');
   } else {
     alert('Wrong! Hint: it stars a kindhearted girl who loves books.')
   }
@@ -25,7 +25,7 @@ function submitAnswerTwo() {
   // Get the number from answer two's input element
   const answerTwo = answerTwoInput.value;
 
-  if(answerTwo == 42) {
+  if(answerTwo == 3) {
     alert("That's right!");
     hide('question-two');
     show('done');
