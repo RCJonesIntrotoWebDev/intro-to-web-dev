@@ -10,10 +10,10 @@ function submitAnswerOne() {
     alert("That's right!");
     hide('question-one');
     show('question-two');
-  } else if(answerOne == 'dog') {
-    alert('Close, but my favorite animal runs away from dogs.');
+  } else if(answerOne == 'Princess and the Frog') {
+    alert('It's one of them, but mine came out 18 years before');
   } else {
-    alert('Wrong! Hint: My favorite animal meows.')
+    alert('Wrong! Hint: it stars a kindhearted girl who loves books.')
   }
 }
 
@@ -29,10 +29,10 @@ function submitAnswerTwo() {
     alert("That's right!");
     hide('question-two');
     show('done');
-  } else if(answerTwo < 42) {
-    alert('The answer is higher.');
+  } else if(answerTwo < 3) {
+    alert('The answer is lower.');
   } else {
-    alert('The answer is lower.')
+    alert('The answer is higher.')
   }
 }
 
