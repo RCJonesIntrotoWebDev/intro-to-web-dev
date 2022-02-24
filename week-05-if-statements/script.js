@@ -12,6 +12,14 @@ function submitAnswerOne() {
     show('question-two');
   } else if(answerOne == 'frozen') {
     alert('never.');
+  } else if(answerOne == 'Dinosuar') {
+    alert('no baby sinclair or political overtones, 0 out of 10.');
+  } else if(answerOne == 'princess and the frog') {
+    alert('it is one of them, but my favorite came out way before that.');
+  } else if(answerOne == 'pinocchio') {
+    alert('another one i adore, but it came long after');
+  } else if(answerOne == 'little mermaid') {
+    alert('hint, my favorite disney movie came out two years after (and no rescuers down under does not count).');
   } else {
     alert('Wrong! It came out in 1991!')
   }
@@ -31,6 +39,8 @@ function submitAnswerTwo() {
     show('done');
   } else if(answerTwo < 3) {
     alert('The answer is lower.');
+  } else if(answerTwo == 2) {
+    alert('soooo close, add one and you will get the answer!');
   } else {
     alert('The answer is higher.')
   }
