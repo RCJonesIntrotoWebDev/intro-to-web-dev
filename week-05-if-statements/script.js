@@ -16,7 +16,7 @@ function submitAnswerOne() {
     alert('no, it's draws away from the source material of The Snow Queen, and insults Disney AND the original author.'); 
   } 
   } else {
-    alert('Wrong! Hint: My favorite animal meows.')
+    alert('Nope.')
   }
 }
 
