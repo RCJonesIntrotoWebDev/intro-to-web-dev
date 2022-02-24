@@ -6,14 +6,14 @@ function submitAnswerOne() {
   // Get the text from answer one's input element
   const answerOne = answerOneInput.value;
 
-  if(answerOne == 'Beauty and the Beast') {
+  if(answerOne == 'beauty and he beast') {
     alert("That's right!");
     hide('question-one');
     show('question-two');
-  } else if(answerOne == 'Princess and the Frog') {
-    alert('It's one of them, but mine came out a while before');
+  } else if(answerOne == 'frozen') {
+    alert('never.');
   } else {
-    alert('Wrong! Hint: it stars a kindhearted girl who loves books.')
+    alert('Wrong! It came out in 1991!')
   }
 }
 
