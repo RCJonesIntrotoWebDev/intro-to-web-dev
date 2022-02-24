@@ -7,16 +7,13 @@ function submitAnswerOne() {
   const answerOne = answerOneInput.value;
 
   if(answerOne == 'Beauty and the Beast') {
-    alert("That is the correct answer");
+    alert("That's right!");
     hide('question-one');
     show('question-two');
-  } else if(answerOne == 'Pinocchio') {
-    alert('Well, this is my second favorite. This one's from 1991.');
   } else if(answerOne == 'Frozen') {
-    alert('no, it's draws away from the source material of The Snow Queen, and insults Disney AND the original author.'); 
-  } 
+    alert('Nope, it's overrated.');
   } else {
-    alert('Nope.')
+    alert('Wrong! Hint: My favorite animal meows.')
   }
 }
 
@@ -28,7 +25,7 @@ function submitAnswerTwo() {
   // Get the number from answer two's input element
   const answerTwo = answerTwoInput.value;
 
-  if(answerTwo == 2) {
+  if(answerTwo == 4) {
     alert("That's right!");
     hide('question-two');
     show('done');
