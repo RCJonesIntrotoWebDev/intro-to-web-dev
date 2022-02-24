@@ -6,12 +6,16 @@ function submitAnswerOne() {
   // Get the text from answer one's input element
   const answerOne = answerOneInput.value;
 
-  if(answerOne == 'cat') {
-    alert("That's right!");
+  if(answerOne == 'Beauty and the Beast') {
+    alert("That is the correct answer");
     hide('question-one');
     show('question-two');
-  } else if(answerOne == 'dog') {
-    alert('Close, but my favorite animal runs away from dogs.');
+  } else if(answerOne == 'Pinocchio') {
+    alert('Well, this is my second favorite. This one's from 1991.');
+  } else if(answerOne == 'Frozen') {
+    alert('no, it's draws away from the source material of The Snow Queen, and insults Disney AND the original author.'); 
+  } else if(answerOne == 'Encanto') {
+    alert('Well, this is my third favorite, but my favorite one is hand drawn.');
   } else {
     alert('Wrong! Hint: My favorite animal meows.')
   }
@@ -25,14 +29,14 @@ function submitAnswerTwo() {
   // Get the number from answer two's input element
   const answerTwo = answerTwoInput.value;
 
-  if(answerTwo == 42) {
+  if(answerTwo == 2) {
     alert("That's right!");
     hide('question-two');
     show('done');
-  } else if(answerTwo < 42) {
-    alert('The answer is higher.');
-  } else {
-    alert('The answer is lower.')
+  } else if(answerTwo < 2) {
+    alert('The answer is lower.');
+  } else if(answerTwo == 1) {
+    alert('The answer is higher.')
   }
 }
 
