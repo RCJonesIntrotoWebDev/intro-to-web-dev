@@ -1,12 +1,6 @@
 // Replace this speeh with your own.
 // Notice the `` backticks, which let you split your string into multiple lines.
-const speech = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-    est laborum.`;
+const speech = `From the oldest of times, people danced for a number of reasons. They danced in prayer... or so that their crops would be plentiful... or so their hunt would be good. And they danced to stay physically fit... and show their community spirit. Ecclesiastes assures us... that there is a time for every purpose under heaven. A time to laugh... and a time to weep. A time to mourn... and there is a time to dance. See, this is our time to dance. It is our way of celebrating life. It's the way it was in the beginning. It's the way it's always been. It's the way it should be now.`;
 
 // Remove punctuation from the speech. You might have to modify this if your
 // speech contains other punctuation.
