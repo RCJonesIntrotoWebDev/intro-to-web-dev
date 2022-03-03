@@ -14,6 +14,7 @@ const wordsArray = speechPunctuationRemoved.split(/\s+/);
 // Displays words that have more than 5 characters.
 function displayLongWords() {
   const longWordsElement = document.getElementById('long-words');
+  
 
   // Loop over every word in the array.
   for(let i = 0; i < wordsArray.length; i++) {
@@ -27,7 +28,22 @@ function displayLongWords() {
   }
 }
 
-// TODO: Define your own functions here!
+// Displays words that have less than 5 characters.
+function displayLongWords() {
+  const shortWordsElement = document.getElementById('short-words');
+  
+
+  // Loop over every word in the array.
+  for(let i = 0; i < wordsArray.length; i++) {
+    const word = wordsArray[i];
+    // If the word has less than 5 characters, display it in the page.
+    if(word.length < 3) {
+      const wordElement = document.createElement('li');
+      wordElement.innerText = word;
+      longWordsElement.appendChild(wordElement);
+    }
+  }
+}
 
 function displaySpeechStats() {
   document.getElementById('speech').innerText = speech;
