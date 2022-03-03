@@ -29,7 +29,7 @@ function displayLongWords() {
 }
 
 // Displays words that have less than 5 characters.
-function displayLongWords() {
+function displayShortWords() {
   const shortWordsElement = document.getElementById('short-words');
   
 
