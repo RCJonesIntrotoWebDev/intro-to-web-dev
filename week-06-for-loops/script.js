@@ -37,7 +37,7 @@ function displayLongWords() {
   for(let i = 0; i < wordsArray.length; i++) {
     const word = wordsArray[i];
     // If the word has less than 5 characters, display it in the page.
-    if(word.length < 3) {
+    if(word.length < 5) {
       const wordElement = document.createElement('li');
       wordElement.innerText = word;
       longWordsElement.appendChild(wordElement);
