@@ -32,6 +32,7 @@ function displaySpeechStats() {
   document.getElementById('speech').innerText = speech;
 
   displayLongWords();
+  
   // TODO: Call your functions here!
 }
 // Displays words that have less than 5 characters.
