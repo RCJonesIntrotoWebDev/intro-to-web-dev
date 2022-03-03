@@ -48,7 +48,7 @@ function displayLongWords() {
 function displaySpeechStats() {
   document.getElementById('speech').innerText = speech;
 
-  displayLongWords();
+  displayShortWords();
 
   // TODO: Call your functions here!
 }
