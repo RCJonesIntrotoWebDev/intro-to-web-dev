@@ -46,7 +46,7 @@ function displayShortWords() {
     if(word.length <=5) {
       const wordElement = document.createElement('li');
       wordElement.innerText = word;
-      longWordsElement.appendChild(wordElement);
+      shortWordsElement.appendChild(wordElement);
     }
   }
 }
