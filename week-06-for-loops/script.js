@@ -28,36 +28,9 @@ function displayLongWords() {
   }
 }
 
-
 function displaySpeechStats() {
   document.getElementById('speech').innerText = speech;
 
   displayLongWords();
-
-  // TODO: Call your functions here!
-}
-
-// Displays words that have less than 5 characters.
-function displayShortWords() {
-  const shortWordsElement = document.getElementById('short-words');
-  
-
-  // Loop over every word in the array.
-  for(let i = 0; i < wordsArray.length; i++) {
-    const word = wordsArray[i];
-    // If the word has less than 5 characters, display it in the page.
-    if(word.length < 5) {
-      const wordElement = document.createElement('li');
-      wordElement.innerText = word;
-      longWordsElement.appendChild(wordElement);
-    }
-  }
-}
-
-function displaySpeechStats() {
-  document.getElementById('speech').innerText = speech;
-
-  displayShortWords();
-
   // TODO: Call your functions here!
 }
