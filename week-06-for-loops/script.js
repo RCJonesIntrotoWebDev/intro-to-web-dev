@@ -81,3 +81,72 @@ function displaySpeechStats() {
   displaycWords();
   // TODO: Call your functions here!
 }
+// Displays words that start with the letter c
+function displaycWords() {
+  const cWordsElement = document.getElementById('c-words');
+  
+
+  // Loop over every word in the array.
+  for(let i = 0; i < wordsArray.length; i++) {
+    const word = wordsArray[i];
+    // If the word starts with the letter C, display it in the page.
+    if(word.length <= words.startsWith("C")) {
+      const wordElement = document.createElement('li');
+      wordElement.innerText = word;
+      cWordsElement.appendChild(wordElement);
+    }
+  }
+}
+
+function displaySpeechStats() {
+  document.getElementById('speech').innerText = speech;
+
+  displaycWords();
+  // TODO: Call your functions here!
+}
+// Displays the last word of each sentence
+function displayendingWords() {
+  const endingWordsElement = document.getElementById('ending-words');
+  
+
+  // Loop over every word in the array.
+  for(let i = 0; i < wordsArray.length; i++) {
+    const word = wordsArray[i];
+    // If the word is and, display it in the page.
+    if(word.length <= words.ending) {
+      const wordElement = document.createElement('li');
+      wordElement.innerText = word;
+      andWordsElement.appendChild(wordElement);
+    }
+  }
+}
+
+function displaySpeechStats() {
+  document.getElementById('speech').innerText = speech;
+
+  displayendingWords();
+  // TODO: Call your functions here!
+}
+// Displays the word and
+function displayandWords() {
+  const andWordsElement = document.getElementById('and-words');
+  
+
+  // Loop over every word in the array.
+  for(let i = 0; i < wordsArray.length; i++) {
+    const word = wordsArray[i];
+    // If the word is and, display it in the page.
+    if(word.length <= words.and) {
+      const wordElement = document.createElement('li');
+      wordElement.innerText = word;
+      andWordsElement.appendChild(wordElement);
+    }
+  }
+}
+
+function displaySpeechStats() {
+  document.getElementById('speech').innerText = speech;
+
+  displayandWords();
+  // TODO: Call your functions here!
+}
