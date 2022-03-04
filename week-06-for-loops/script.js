@@ -56,6 +56,5 @@ function displaySpeechStats() {
   document.getElementById('speech').innerText = speech;
 
   displayShortWords();
-  
   // TODO: Call your functions here!
 }
