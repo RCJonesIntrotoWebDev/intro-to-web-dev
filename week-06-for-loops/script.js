@@ -58,3 +58,26 @@ function displaySpeechStats() {
   displayShortWords();
   // TODO: Call your functions here!
 }
+// Displays words that start with the letter c
+function displaycWords() {
+  const cWordsElement = document.getElementById('c-words');
+  
+
+  // Loop over every word in the array.
+  for(let i = 0; i < wordsArray.length; i++) {
+    const word = wordsArray[i];
+    // If the word starts with the letter C, display it in the page.
+    if(word.length <= words.startsWith("C")) {
+      const wordElement = document.createElement('li');
+      wordElement.innerText = word;
+      cWordsElement.appendChild(wordElement);
+    }
+  }
+}
+
+function displaySpeechStats() {
+  document.getElementById('speech').innerText = speech;
+
+  displaycWords();
+  // TODO: Call your functions here!
+}
