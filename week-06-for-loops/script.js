@@ -33,7 +33,6 @@ function displaySpeechStats() {
 
   displayLongWords();
   
-  // TODO: Call your functions here!
 }
 // Displays words that have less than 5 characters.
 function displayShortWords() {
@@ -56,7 +55,6 @@ function displaySpeechStats() {
   document.getElementById('speech').innerText = speech;
 
   displayShortWords();
-  // TODO: Call your functions here!
 }
 // Displays words that start with the letter c
 function displaycWords() {
@@ -79,7 +77,6 @@ function displaySpeechStats() {
   document.getElementById('speech').innerText = speech;
 
   displaycWords();
-  // TODO: Call your functions here!
 }
 // Displays words that start with the letter c
 function displaycWords() {
@@ -102,7 +99,6 @@ function displaySpeechStats() {
   document.getElementById('speech').innerText = speech;
 
   displaycWords();
-  // TODO: Call your functions here!
 }
 // Displays the last word of each sentence
 function displayendingWords() {
@@ -125,7 +121,6 @@ function displaySpeechStats() {
   document.getElementById('speech').innerText = speech;
 
   displayendingWords();
-  // TODO: Call your functions here!
 }
 // Displays the word and
 function displayandWords() {
@@ -148,5 +143,4 @@ function displaySpeechStats() {
   document.getElementById('speech').innerText = speech;
 
   displayandWords();
-  // TODO: Call your functions here!
 }
