@@ -1,17 +1,17 @@
 // state
-let circleY = 0;
+let starY = 0;
 
 function setup() {
-  createCanvas(200, 200);
+  createCanvas(300, 200);
 }
 
 function draw() {
   // clear out old frames
-  background(32);
+  background(255, 204, 100);
 
   // draw current frame based on state
-  circle(100, circleY, 50);
+  star(100, circleY, 50);
 
   // modify state
-  circleY = circleY + 1;
+  starY = starY + 1;
 }
