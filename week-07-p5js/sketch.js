@@ -1,9 +1,17 @@
+// state
+let circleY = 0;
+
 function setup() {
-  createCanvas(100, 100);
+  createCanvas(200, 200);
 }
 
-
 function draw() {
-  background(100);
-  circle(mouseX, mouseY, 100);
+  // clear out old frames
+  background(32);
+
+  // draw current frame based on state
+  circle(100, circleY, 50);
+
+  // modify state
+  circleY = circleY + 1;
 }
