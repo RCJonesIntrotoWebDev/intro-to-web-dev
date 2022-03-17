@@ -42,8 +42,17 @@ function fillOutputs() {
   const colorOneOutput = document.getElementById('color-one-output');
   // Set the text of the input element
   colorOneOutput.innerText = adjectiveOne;
-
   
+    // Get the color input element
+  const skechersOneInput = document.getElementById('skechers-one-input');
+  // Get the text from the input element
+  const skechersOne = colorOneInput.value;
+
+  // Get the skechers output element
+  const skechersOneOutput = document.getElementById('skechers-one-output');
+  // Set the text of the input element
+  skechersOneOutput.innerText = adjectiveOne;
+
   // Get the output container element
   const outputDiv = document.getElementById('output');
   // Make the output container element visible
