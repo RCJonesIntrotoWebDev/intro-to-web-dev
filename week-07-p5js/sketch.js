@@ -1,7 +1,8 @@
 function setup() {
-  createCanvas(300, 300);
+  createCanvas(400, 400);
 }
 
 function draw() {
-  background(400)
-  star(300,300,400)
+  background(220);
+  rectangle(200, 200, 300);
+}
