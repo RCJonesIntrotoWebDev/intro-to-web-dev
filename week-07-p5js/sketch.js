@@ -1,8 +1,9 @@
 function setup() {
   createCanvas(300, 300);
+  background(32);
 }
 
 function draw() {
-  background(32);
-  circle(mouseX, mouseY, 50);
-}
+  if (mouseIsPressed) {
+    circle(mouseX, mouseY, 25);
+  }
