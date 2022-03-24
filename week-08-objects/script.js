@@ -1,9 +1,9 @@
 // Array of objects representing a todo list.
 // Modify this array to contain your own list.
 const taskArray = [
-  {label: 'Water plants', time: 3},
-  {label: 'Homework', time: 2},
-  {label: 'Laundry', time: 1},
+  {label: 'Untitled Rumplestiltskin Film Spinoff', Episodes: 10},
+  {label: 'The Homework Show', Episodes: 32},
+  {label: 'Laundry', Episodes: 16},
 ];
 
 // Loads the content into the page.
