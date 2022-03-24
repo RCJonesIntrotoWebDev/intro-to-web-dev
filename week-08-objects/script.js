@@ -1,27 +1,27 @@
-// Array of objects representing a series and episode list.
+// Array of objects representing a todo list.
 // Modify this array to contain your own list.
-const seriesandepisodeArray = [
-  {label: 'Untitled Rumplestiltskin Series', episodes: 10},
-  {label: 'Homework Half Hour', episodes: 32},
-  {label: 'The Intergalactic League of Space Photographers', episodes: 1},
+const taskArray = [
+  {label: 'Water plants', time: 3},
+  {label: 'Homework', time: 2},
+  {label: 'Laundry', time: 1},
 ];
 
 // Loads the content into the page.
 function loadContent() {
   // This line of code sorts the array alphabetically by the task labels.
   // Modify this to sort your data by a different field, or just delete it.
-  SeriesArray.sort((a, b) => compare(a.label, b.label));
+  taskArray.sort((a, b) => compare(a.label, b.label));
 
   loadTable();
-  loadShortestEpisode();
+  loadShortestTask();
 }
 
 // Adds a task to the array and reloads the page content.
 function addNewTask() {
-  const newSeriesLabel = document.getElementById('label-input').value;
-  const newSeriesTime = document.getElementById('episode-input').value;
-  const newSeries = {label: newSeriesLabel, time: newepisodeTime };
-  seriesArray.push(newSeries);
+  const newTaskLabel = document.getElementById('label-input').value;
+  const newTaskTime = document.getElementById('time-input').value;
+  const newTask = {label: newTaskLabel, time: newTaskTime };
+  taskArray.push(newTask);
 
   loadContent();
 }
@@ -33,17 +33,17 @@ function loadTable() {
   // Create a header row.
   const headerRowElement = document.createElement('tr');
   headerRowElement.appendChild(createElement('th', 'Index'));
-  headerRowElement.appendChild(createElement('th', 'Series'));
-  headerRowElement.appendChild(createElement('th', 'Episode'));
+  headerRowElement.appendChild(createElement('th', 'Label'));
+  headerRowElement.appendChild(createElement('th', 'Time'));
   tableElement.appendChild(headerRowElement);
 
   // Iterate over the array and create a table row for each object.
-  for (let i = 0; i < seriesArray.length; i++) {
-    const task = seriesArray[i];
+  for (let i = 0; i < taskArray.length; i++) {
+    const task = taskArray[i];
     const rowElement = document.createElement('tr');
     rowElement.appendChild(createElement('td', i));
-    rowElement.appendChild(createElement('td', series.label));
-    rowElement.appendChild(createElement('td', series.time));
+    rowElement.appendChild(createElement('td', task.label));
+    rowElement.appendChild(createElement('td', task.time));
     tableElement.appendChild(rowElement);
   }
 
@@ -52,20 +52,20 @@ function loadTable() {
   tableContainer.appendChild(tableElement);
 }
 
-// Displays the name of the shortest episode.
-function loadShortestEpisode(){
+// Displays the name of the shortest task.
+function loadShortestTask(){
   // Assume the first task is shortest
-  let shortestTask = SeriesArray[0];
+  let shortestTask = taskArray[0];
 
   // Starting with the second task, look for a shorter task
-  for (let i = 1; i < seriesArray.length; i++) {
+  for (let i = 1; i < taskArray.length; i++) {
     const task = taskArray[i];
-    // If this series is shorter than the previous shortest, it's now the shortest
-    if(series.episode < shortestSeries.episode) {
-      shortestSeries = series;
+    // If this task is shorter than the previous shortest, it's now the shortest
+    if(task.time < shortestTask.time) {
+      shortestTask = task;
     }
   }
-  document.getElementById('shortest-task').innerText = shortestepisode.series;
+  document.getElementById('shortest-task').innerText = shortestTask.label;
 }
 
 // Helper function that creates an element that contains text content.
