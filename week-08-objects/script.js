@@ -1,9 +1,9 @@
-// Array of objects representing a todo list.
+// Array of objects representing a series list.
 // Modify this array to contain your own list.
 const taskArray = [
-  {label: 'Rumplestiltskin Series', time: 3},
-  {label: 'Homework Half Hour Show', time: 2},
-  {label: 'Intergalactic League of Space Photographers', time: 1},
+  {label: 'Rumplestiltskin Series', episodes: 15},
+  {label: 'Homework Half Hour Show', episodes: 32},
+  {label: 'Intergalactic League of Space Photographers', episodes: 10},
 ];
 
 // Loads the content into the page.
