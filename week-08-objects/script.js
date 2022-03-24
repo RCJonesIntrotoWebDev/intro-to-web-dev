@@ -1,6 +1,6 @@
-// Array of objects representing a todo list.
+// Array of objects representing a Series list.
 // Modify this array to contain your own list.
-const taskArray = [
+const showArray = [
   {label: 'Untitled Rumplestiltskin Film Spinoff', Episodes: 10},
   {label: 'The Homework Show', Episodes: 32},
   {label: 'Laundry', Episodes: 16},
