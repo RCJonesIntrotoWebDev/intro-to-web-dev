@@ -1,9 +1,9 @@
 // Array of objects representing a series list.
 // Modify this array to contain your own list.
 const taskArray = [
-  {label: 'Rumplestiltskin Series', seasons: 2},
-  {label: 'Homework Half Hour Show', seasons: 4},
-  {label: 'Intergalactic League of Space Photographers', seasons: 1},
+  {label: 'Water plants', time: 3},
+  {label: 'Homework', time: 2},
+  {label: 'Laundry', time: 1},
 ];
 
 // Loads the content into the page.
