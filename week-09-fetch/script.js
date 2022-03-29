@@ -2,7 +2,7 @@
 async function loadContent() {
   const pageId = 'Cat';
   const response = await fetch(
-    'https://en.wikipedia.org/w/api.php?' +
+    'https://user-images.githubusercontent.com/98345898/151428054-4bc4c254-00b2-4c4f-93cf-4df222fb4658.jpg' +
     'action=parse&formatversion=2&format=json&origin=*&page='
     + pageId);
   const json = await response.json();
