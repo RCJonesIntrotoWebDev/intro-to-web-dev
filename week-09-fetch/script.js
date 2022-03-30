@@ -1,7 +1,8 @@
 // Loads content for a Wikipedia article and displays it in the page.
 async function loadContent() {
   const pageId = 'Cat';
-  const response = await fetch(IMG_5734.jpg);
+  const response = await fetch();
+  IMG_5734.jpg
   const json = await response.json();
   const article = json.parse;
 
