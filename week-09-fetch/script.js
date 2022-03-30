@@ -2,7 +2,6 @@
 async function loadContent() {
   const pageId = 'Cat';
   const response = await fetch();
-  IMG_5734.jpg
   const json = await response.json();
   const article = json.parse;
 
