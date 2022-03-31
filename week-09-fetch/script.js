@@ -1,8 +1,8 @@
 /// Loads content for a Wikipedia article and displays it in the page.
 async function loadContent() {
-  const pageId = 'Disney On Ice';
-  const response = await fetch(
-    'https://static.wikia.nocookie.net/disney/images/f/f6/WDWOI1990Poster.jpg/revision/latest/scale-to-width-down/2307?cb=20220127181741' +
+  const pageId = 'Disney_on_Ice';
+const response = await fetch(
+    'https://en.wikipedia.org/w/api.php?' +
     'action=parse&formatversion=2&format=json&origin=*&page='
     + pageId);
   const json = await response.json();
