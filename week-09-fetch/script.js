@@ -46,6 +46,15 @@ async function loadImages(images) {
           || imageUrl.endsWith('.ogv')) {
         continue;
       }
+    
+    
+    [
+  {"text": "Follow Disney On Ice History", "color": "red"},
+  {"text": "On Instagram", "color": "blue"},
+  {"text": "Home to wonderful content of over 40 years", "color": "green"},
+  {"text": "of Disney On Ice!", "color": "yellow"},
+  {"text": "Follow at disneyonicehistory!", "color": "purple"}
+]
 
       const imageElement = document.createElement('img');
       imageElement.src = imageUrl;
