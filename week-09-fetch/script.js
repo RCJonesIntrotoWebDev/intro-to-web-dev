@@ -32,7 +32,7 @@ async function loadImages(images) {
     // image is a local filename (e.g. Cat.jpg), so call the Wikipedia API to
     // get the full URL for the image.
     const response = await fetch(
-      'https://en.wikipedia.org/w/api.php'
+      'https://user-images.githubusercontent.com/98345898/151428054-4bc4c254-00b2-4c4f-93cf-4df222fb4658.jpg'
       + '?action=query&prop=imageinfo&iiprop=url&format=json&formatversion=2&origin=*'
       + '&titles=Image:' + image );
       const json = await response.json();
