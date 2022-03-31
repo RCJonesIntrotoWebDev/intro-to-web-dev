@@ -54,3 +54,6 @@ async function loadImages(images) {
       imagesContainer.appendChild(imageElement);
   }
 }
+
+fetchPromise =
+        fetch('https://www.instagram.com/disneyonicehistory/?hl=en');
