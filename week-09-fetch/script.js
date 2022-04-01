@@ -46,16 +46,7 @@ async function loadImages(images) {
           || imageUrl.endsWith('.ogv')) {
         continue;
       }
-    
-    var a = document.createElement('a')
-a.appendChild(link)
-a.title = "Disney On Ice History on Instagram";
-fetchPromise = a.href = "https://www.instagram.com/disneyonicehistory/?hl=en"; 
- }
-        </script> 
-    </body> 
-</html>     
-  
+   
       const imageElement = document.createElement('img');
       imageElement.src = imageUrl;
       imagesContainer.appendChild(imageElement);
