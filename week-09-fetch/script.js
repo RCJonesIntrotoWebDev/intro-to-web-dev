@@ -55,5 +55,4 @@ async function loadImages(images) {
   }
 }
 
-fetchPromise =
-        fetch(a href=”https://www.instagram.com/disneyonicehistory/?hl=en”>);
+fetchPromise =a.href = "https://www.instagram.com/disneyonicehistory/?hl=en"; 
